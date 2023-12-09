@@ -1,6 +1,7 @@
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Menu, { loader as menuLoader } from "./features/menu/Menu";
 import Order, { loader as orderLoader } from "./features/order/Order";
+import { action as updatePriority } from "./features/order/UpdateOrder";
 import CreateOrder, {
   action as createOrderAction,
 } from "./features/order/CreateOrder";
@@ -39,6 +40,7 @@ const router = createBrowserRouter([
         element: <Order />,
         loader: orderLoader,
         errorElement: <Error />,
+        action: updatePriority,
       },
     ],
   },
