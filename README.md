@@ -1,13 +1,15 @@
-# React + Vite
+# React + Vite Food Ordering App
 
-A food ordering app where you can add your name and order from the pizza menu, I build this app using React-Redux and ReactRouter.
-The app simulates a simple menu where you cand chose quantity and add, remove, update cart items and order using a form wich uses a geolocation API for easy filling the adress.
+Welcome to the React + Vite Food Ordering App! This application allows you to seamlessly order delicious pizzas by adding your name, selecting items from the pizza menu, and utilizing a user-friendly cart system. Built with React-Redux and ReactRouter, this app provides a smooth experience for users to interact with the menu, manage their orders, and submit them effortlessly.
 
-You can check my app deployed at Netlify using this link: https://react-food-pizza.netlify.app/
+## Features
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- **User-friendly Interface**: Easily navigate through the app with a clean and intuitive user interface.
+- **Dynamic Menu**: Explore a dynamic pizza menu, choose quantities, and customize your order.
+- **Cart Management**: Add, remove, and update items in the cart as per your preferences.
+- **Geolocation API Integration**: Simplify the address entry process using the geolocation API in the order form.
 
-Currently, two official plugins are available:
+## Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Check out the deployed app on Netlify: [React Food Pizza App](https://react-food-pizza.netlify.app)
+
